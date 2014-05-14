@@ -27,8 +27,8 @@
                     <rect key="frame" x="0.0" y="39" width="320" height="441"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTZ-IJ-jep">
-                            <rect key="frame" x="107" y="98" width="68" height="29"/>
+                        <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTZ-IJ-jep">
+                            <rect key="frame" x="89" y="94" width="85" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="15"/>
                             <state key="normal" title="Popup" backgroundImage="button_silver.png">
@@ -36,7 +36,7 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
-                                <action selector="popupBtnClicked:" destination="-1" eventType="touchUpOutside" id="s3a-nZ-zns"/>
+                                <action selector="popupBtnClicked:" destination="-1" eventType="touchUpInside" id="Tu4-7z-G6z"/>
                             </connections>
                         </button>
                     </subviews>

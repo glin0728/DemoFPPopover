@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53DFCE8019227B0600FFF481 /* ContentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DFCE7F19227B0600FFF481 /* ContentTableViewController.m */; };
 		53E113BB19210A500095724B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E113BA19210A500095724B /* Foundation.framework */; };
 		53E113BD19210A500095724B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E113BC19210A500095724B /* CoreGraphics.framework */; };
 		53E113BF19210A500095724B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E113BE19210A500095724B /* UIKit.framework */; };
@@ -22,6 +23,10 @@
 		53E113F519210B940095724B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E113F319210B940095724B /* HomeViewController.m */; };
 		53E113F619210B940095724B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53E113F419210B940095724B /* HomeViewController.xib */; };
 		53E113F819210FC20095724B /* button_silver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53E113F719210FC20095724B /* button_silver@2x.png */; };
+		53E11401192115C60095724B /* FPPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E113FC192115C60095724B /* FPPopoverController.m */; };
+		53E11402192115C60095724B /* FPPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E113FE192115C60095724B /* FPPopoverView.m */; };
+		53E11403192115C60095724B /* FPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E11400192115C60095724B /* FPTouchView.m */; };
+		53E11407192117060095724B /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E11405192117060095724B /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53DFCE7E19227B0600FFF481 /* ContentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTableViewController.h; sourceTree = "<group>"; };
+		53DFCE7F19227B0600FFF481 /* ContentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTableViewController.m; sourceTree = "<group>"; };
 		53E113B719210A500095724B /* DemoFPPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFPPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E113BA19210A500095724B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		53E113BC19210A500095724B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +62,15 @@
 		53E113F319210B940095724B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		53E113F419210B940095724B /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		53E113F719210FC20095724B /* button_silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_silver@2x.png"; sourceTree = "<group>"; };
+		53E113FA192115C60095724B /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacros.h; sourceTree = "<group>"; };
+		53E113FB192115C60095724B /* FPPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverController.h; sourceTree = "<group>"; };
+		53E113FC192115C60095724B /* FPPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverController.m; sourceTree = "<group>"; };
+		53E113FD192115C60095724B /* FPPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPPopoverView.h; sourceTree = "<group>"; };
+		53E113FE192115C60095724B /* FPPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPPopoverView.m; sourceTree = "<group>"; };
+		53E113FF192115C60095724B /* FPTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPTouchView.h; sourceTree = "<group>"; };
+		53E11400192115C60095724B /* FPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPTouchView.m; sourceTree = "<group>"; };
+		53E11404192117060095724B /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		53E11405192117060095724B /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +130,7 @@
 		53E113C019210A500095724B /* DemoFPPopover */ = {
 			isa = PBXGroup;
 			children = (
+				53E113F9192115B30095724B /* FPPopover */,
 				53E113C919210A500095724B /* AppDelegate.h */,
 				53E113CA19210A500095724B /* AppDelegate.m */,
 				53E113D219210A500095724B /* Images.xcassets */,
@@ -121,6 +138,8 @@
 				53E113F219210B940095724B /* HomeViewController.h */,
 				53E113F319210B940095724B /* HomeViewController.m */,
 				53E113F419210B940095724B /* HomeViewController.xib */,
+				53E11404192117060095724B /* ContentViewController.h */,
+				53E11405192117060095724B /* ContentViewController.m */,
 			);
 			path = DemoFPPopover;
 			sourceTree = "<group>";
@@ -153,6 +172,22 @@
 				53E113E219210A500095724B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53E113F9192115B30095724B /* FPPopover */ = {
+			isa = PBXGroup;
+			children = (
+				53E113FA192115C60095724B /* ARCMacros.h */,
+				53E113FB192115C60095724B /* FPPopoverController.h */,
+				53E113FC192115C60095724B /* FPPopoverController.m */,
+				53E113FD192115C60095724B /* FPPopoverView.h */,
+				53E113FE192115C60095724B /* FPPopoverView.m */,
+				53E113FF192115C60095724B /* FPTouchView.h */,
+				53E11400192115C60095724B /* FPTouchView.m */,
+				53DFCE7E19227B0600FFF481 /* ContentTableViewController.h */,
+				53DFCE7F19227B0600FFF481 /* ContentTableViewController.m */,
+			);
+			name = FPPopover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,8 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E113CB19210A500095724B /* AppDelegate.m in Sources */,
+				53DFCE8019227B0600FFF481 /* ContentTableViewController.m in Sources */,
+				53E11407192117060095724B /* ContentViewController.m in Sources */,
+				53E11401192115C60095724B /* FPPopoverController.m in Sources */,
 				53E113C719210A500095724B /* main.m in Sources */,
 				53E113F519210B940095724B /* HomeViewController.m in Sources */,
+				53E11403192115C60095724B /* FPTouchView.m in Sources */,
+				53E11402192115C60095724B /* FPPopoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +496,7 @@
 				53E113EB19210A500095724B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53E113EC19210A500095724B /* Build configuration list for PBXNativeTarget "DemoFPPopoverTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +505,7 @@
 				53E113EE19210A500095724B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

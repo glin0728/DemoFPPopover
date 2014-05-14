@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FPPopoverController.h"
 
-@interface HomeViewController : UIViewController
+@interface HomeViewController : UIViewController<FPPopoverControllerDelegate>
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UIButton *popupBtn;
 
